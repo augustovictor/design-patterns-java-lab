@@ -10,6 +10,11 @@ How objects are created
 - Private constructor
 - No params given since it would be a factory pattern and violate the singleton pattern;
 
+### Factory Method
+- It does not expose instantiation logic;
+- The factory exposes a common interface and that's all the client knows about;
+
+
 ## Structural
 How objects connect to each other
 
