@@ -25,13 +25,16 @@ How objects connect to each other
 - The adapter pattern does not adds functionality. It would be a `decorator` if it does;
 
 ### Composite
-- Treat components the same way. No matter whether they are parts or whole structure;
+- Treat components the same way (same interface). No matter whether they are parts or whole structure; It generalizes
+a hierarchical structure;
 - Composite objects into tree structures;
     - The root of the tree is a `component` which is an abstraction for `leafs` of `composite` objects;
         - Components are either a `leaf` or a `composite` of objects.
             - Both have the same operations;
             - Composite knows about its child components;
 - Individual objects are treated as Composited objects;
+- A drawback of this pattern is that it is difficult to specify what kind of objects cannot be part of the `composite`;
+    - It will have to be done in Runtime instead of compile time safety;
 
 ## Behavioral
 How objects distribute work

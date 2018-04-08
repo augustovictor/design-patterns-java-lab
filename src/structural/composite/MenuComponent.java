@@ -12,6 +12,14 @@ public abstract class MenuComponent {
         return name;
     }
 
+    MenuComponent add(MenuComponent menuComponent) {
+        throw new UnsupportedOperationException("Feature not implemented at this level");
+    }
+
+    MenuComponent remove(MenuComponent menuComponent) {
+        throw new UnsupportedOperationException("Feature not implemented at this level");
+    }
+
     public String getUrl() {
         return url;
     }
