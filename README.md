@@ -18,5 +18,11 @@ How objects are created
 ## Structural
 How objects connect to each other
 
+### Adapter
+- Good to connect new code to legacy code without changing the contract originally created;
+- Translates requests from the client to the code we're adapting to;
+- Client, Adapter, Adaptee (Legacy);
+- The adapter pattern does not adds functionality. It would be a `decorator` if it does;
+
 ## Behavioral
 How objects distribute work
