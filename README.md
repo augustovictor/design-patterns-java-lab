@@ -24,5 +24,14 @@ How objects connect to each other
 - Client, Adapter, Adaptee (Legacy);
 - The adapter pattern does not adds functionality. It would be a `decorator` if it does;
 
+### Composite
+- Treat components the same way. No matter whether they are parts or whole structure;
+- Composite objects into tree structures;
+    - The root of the tree is a `component` which is an abstraction for `leafs` of `composite` objects;
+        - Components are either a `leaf` or a `composite` of objects.
+            - Both have the same operations;
+            - Composite knows about its child components;
+- Individual objects are treated as Composited objects;
+
 ## Behavioral
 How objects distribute work
