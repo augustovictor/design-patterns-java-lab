@@ -1,4 +1,4 @@
-package behavioral.template.chainofresponsability;
+package behavioral.chainofresponsability;
 
 public enum RequestType {
     CONFERENCE, PURCHASE;

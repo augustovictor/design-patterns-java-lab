@@ -1,4 +1,4 @@
-package behavioral.template.chainofresponsability;
+package behavioral.chainofresponsability;
 
 public class ChainOfResponsibilityDemo {
     public static void main(String[] args) {

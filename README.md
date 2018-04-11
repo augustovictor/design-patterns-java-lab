@@ -93,3 +93,14 @@ How objects distribute work
 - Elements involved:
     - Handler
     - ConcreteHandler + reference to the next handler;
+    
+### State
+- Localize state specific behavior;
+- The state of the application is stored in an object instead of in a mixin of variables;
+- Makes objects follow the Open closed principle (The classes are open to extension but closed for modification);
+- Abstract class based
+- Each state is class based and is represented by an individual concrete class;
+- Elements involved:
+    - Context;
+    - State;
+    - ConcreteState;
