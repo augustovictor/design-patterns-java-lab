@@ -83,3 +83,13 @@ How objects distribute work
 - Drawbacks:
     - Make sure to restrict access correctly;
     
+### Chain of Responsibility
+- Promotes loose coupling
+- Hierarchical in nature
+- Decouple sender and receiver objects;
+    - The receiver should have a reference to the next receiver (successor)
+- Typically implemented as a `List`
+    - Each handler is based on an `Interface` that is the contract between the handlers;
+- Elements involved:
+    - Handler
+    - ConcreteHandler + reference to the next handler
