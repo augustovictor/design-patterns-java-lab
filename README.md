@@ -92,4 +92,4 @@ How objects distribute work
     - Each handler is based on an `Interface` that is the contract between the handlers;
 - Elements involved:
     - Handler
-    - ConcreteHandler + reference to the next handler
+    - ConcreteHandler + reference to the next handler;
