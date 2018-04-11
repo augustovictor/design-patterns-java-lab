@@ -68,3 +68,18 @@ a hierarchical structure;
             
 ## Behavioral
 How objects distribute work
+
+### Template Method
+- Build around a base abstract class which is responsible for calling a child class;
+- Focused on a single algorithm but with different implementations;
+- The algorithm is chosen in compile time;
+- Improves code reuse
+- Elements involved:
+    - Abstract Base class
+        - Has the entrypoint that is called by the concrete class;
+    - Concrete Child class
+    - Hooks (Can be overwritten)
+    - Operations (Must be overwritten)
+- Drawbacks:
+    - Make sure to restrict access correctly;
+    
