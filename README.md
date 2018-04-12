@@ -104,3 +104,14 @@ How objects distribute work
     - Context;
     - State;
     - ConcreteState;
+    
+### Command
+- Encapsulates each request as an object;
+- Object-oriented callback;
+- Sender is decoupled from the processor;
+- Often used to add 'Undo' functionality;
+- Elements involved:
+    - Command;
+    - Invoker;
+    - ConcreteCommand;
+    - Receiver;
