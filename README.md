@@ -111,7 +111,9 @@ How objects distribute work
 - Sender is decoupled from the processor;
 - Often used to add 'Undo' functionality;
 - Elements involved:
-    - Command;
+    - Command: The interface that specifies that all implementations should have an `execute` method;
     - Invoker;
-    - ConcreteCommand;
+    - ConcreteCommand: ;
     - Receiver;
+- Drawbacks:
+    - Create many small classes that store lists of commands;
