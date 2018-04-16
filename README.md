@@ -113,7 +113,20 @@ How objects distribute work
 - Elements involved:
     - Command: The interface that specifies that all implementations should have an `execute` method;
     - Invoker;
-    - ConcreteCommand: ;
+    - ConcreteCommand;
     - Receiver;
 - Drawbacks:
     - Create many small classes that store lists of commands;
+    
+### Mediator
+- Defines how objects interact with each other without having to refer to them explicitly;
+- Acts as a hub/router because all communication goes through the mediator;
+- Interface based with a concrete class;
+- The mediator knows about all the colleagues instead of them knowing about each other;
+- Elements involved:
+    - Mediator (Interface or abstract class);
+    - ConcreteMediator
+    
+### Observer
+- Used when many objects should receive an update when another object changes;
+- 
