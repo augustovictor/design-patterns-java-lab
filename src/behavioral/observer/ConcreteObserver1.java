@@ -1,19 +1,8 @@
 package behavioral.observer;
 
-public class Follower implements Observer {
-
-    private String followerName;
-
-    public Follower(String followerName) {
-        this.followerName = followerName;
-    }
-
+public class ConcreteObserver1 implements Observer {
     @Override
-    public void update(String status) {
-        System.out.println("Updated status... status: " + status);
-    }
-
-    public void play() {
-        System.out.println("Playing...");
+    public void update(String post) {
+        System.out.println("Observer 1 received the post: " + post);
     }
 }

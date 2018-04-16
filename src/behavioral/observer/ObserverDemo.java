@@ -20,33 +20,4 @@ public class ObserverDemo {
         subject.notifyObservers("New private post");
 
     }
-
-    public interface Subject {
-    }
-
-    public class Channel implements behavioral.observer.Subject {
-        @Override
-        public void subscribe(behavioral.observer.Observer observer) {
-
-        }
-
-        @Override
-        public void unsubscribe(behavioral.observer.Observer observer) {
-
-        }
-
-        @Override
-        public void notifyObservers(String post) {
-
-        }
-    }
-
-    public interface Observer {
-        public void update(String status);
-    }
-
-    public class Follower implements behavioral.observer.Observer {
-
-    }
 }
-
